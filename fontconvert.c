@@ -156,7 +156,7 @@ int main(int argc, char *argv[]) {
   printf("const uint8_t %sBitmaps[] PROGMEM = {\n  ", fontName);
 #else
   printf("#include <stdint.h>\n");
-  printf("#include \"AdafruitGFX.hpp\"\n\n");
+  printf("#include \"gfxfont.h\"\n\n");
   printf("const uint8_t %sBitmaps[] = {\n  ", fontName);
 #endif
 

@@ -15,7 +15,7 @@ def main():
             with open (f"Fonts/{src.name}", "wt") as dest:
                 dest.write(f'#ifndef {guard}_H_\n')
                 dest.write(f'#define {guard}_H_\n\n')
-                dest.write('#include "stdint.h"\n')
+                dest.write('#include <stdint.h>\n')
                 dest.write('#include "gfxfont.h"\n\n')
                 dest.write(f'{content}\n')
                 dest.write(f'#endif /* {guard}_H_ */\n')
