@@ -8,4 +8,5 @@ characters.
 This repository comes with a ".devcontainer" folder that allows you to run the
 code without installing the dependencies yourself.
 
-The `Makefile` and `
+The `Makefile` and `makefonts.sh` are from Adafruit's code. Currently,
+I use the `make_fonts.py` script to generate the fonts.
